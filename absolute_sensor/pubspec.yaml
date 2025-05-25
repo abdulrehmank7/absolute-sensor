@@ -1,5 +1,5 @@
 name: absolute_sensor
-description: "Get absolute sensor value from device different type of sensors"
+description: "Get absolute sensor values from device for different sensors."
 version: 0.0.1
 homepage:
 
