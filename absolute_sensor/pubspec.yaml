@@ -7,9 +7,9 @@ issue_tracker: https://github.com/abdulrehmank7/absolute-sensor/issues
 
 topics:
   - sensor
-  - absolute sensor values
-  - gyroscope sensor
-  - android sensor
+  - absolute_sensor_values
+  - gyroscope_sensor
+  - android_sensor
 
 
 environment:
