@@ -1,0 +1,20 @@
+{
+  "buildFiles": [
+    "/Users/abdulrehmankhilji/development/flutter/packages/flutter_tools/gradle/src/main/groovy/CMakeLists.txt"
+  ],
+  "cleanCommandsComponents": [
+    [
+      "/Users/abdulrehmankhilji/Library/Android/sdk/cmake/3.22.1/bin/ninja",
+      "-C",
+      "/Users/abdulrehmankhilji/StudioProjects/absolute-sensor/absolute_sensor/example/android/app/.cxx/Debug/h5r5g3n1/x86",
+      "clean"
+    ]
+  ],
+  "buildTargetsCommandComponents": [
+    "/Users/abdulrehmankhilji/Library/Android/sdk/cmake/3.22.1/bin/ninja",
+    "-C",
+    "/Users/abdulrehmankhilji/StudioProjects/absolute-sensor/absolute_sensor/example/android/app/.cxx/Debug/h5r5g3n1/x86",
+    "{LIST_OF_TARGETS_TO_BUILD}"
+  ],
+  "libraries": {}
+}
