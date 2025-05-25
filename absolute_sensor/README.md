@@ -190,32 +190,40 @@ subScreen.cancel();
 <h2 data-start="3758" data-end="3768">Example</h2>
 
 ```dart
+import 'dart:async';
+
+import 'package:absolute_sensor/absolute_sensor.dart';
+import 'package:flutter/material.dart';
+
 void main() {
-  runApp(MyApp());
+  runApp(const MyApp());
 }
 
 class MyApp extends StatefulWidget {
+  const MyApp({super.key});
+
   @override
-  _MyAppState createState() =&gt; _MyAppState();
+  State<MyApp> createState() => _MyAppState();
 }
-class _MyAppState extends State&lt;MyApp&gt; {
+
+class _MyAppState extends State<MyApp> {
   String _text = 'Waiting…';
-  late StreamSubscription&lt;SensorData&gt; _accelSub;
+  late StreamSubscription<SensorData> _accelSub;
 
   @override
   void initState() {
     super.initState();
-    AbsoluteSensor.isSensorAvailable(TYPE_ACCELEROMETER).then((ok) {
+    AbsoluteSensor.isSensorAvailable(1).then((ok) {
       if (ok) {
         _accelSub = AbsoluteSensor.accelerometerEvents.listen((d) {
           setState(() {
             _text = 'x:${d.x.toStringAsFixed(1)}, '
-                  'y:${d.y.toStringAsFixed(1)}, '
-                  'z:${d.z.toStringAsFixed(1)}';
+                'y:${d.y.toStringAsFixed(1)}, '
+                'z:${d.z.toStringAsFixed(1)}';
           });
         });
       } else {
-        setState(() =&gt; _text = 'No accelerometer');
+        setState(() => _text = 'No accelerometer');
       }
     });
   }
@@ -227,13 +235,16 @@ class _MyAppState extends State&lt;MyApp&gt; {
   }
 
   @override
-  Widget build(BuildContext c) =&gt; MaterialApp(
-    home: Scaffold(
-      appBar: AppBar(title: Text('AbsoluteSensor Demo')),
-      body: Center(child: Text(_text, style: TextStyle(fontSize: 24))),
-    ),
-  );
+  Widget build(BuildContext c) {
+    return MaterialApp(
+      home: Scaffold(
+        appBar: AppBar(title: const Text('AbsoluteSensor Demo')),
+        body: Center(child: Text(_text, style: const TextStyle(fontSize: 24))),
+      ),
+    );
+  }
 }
+
 ```
 
 
