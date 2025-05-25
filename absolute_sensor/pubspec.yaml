@@ -1,6 +1,6 @@
 name: absolute_sensor
 description: "Get absolute sensor values from device for different sensors."
-version: 0.0.1
+version: 1.0.0
 repository: https://github.com/abdulrehmank7/absolute-sensor/tree/master/absolute_sensor
 
 environment:

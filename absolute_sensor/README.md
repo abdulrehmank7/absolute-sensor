@@ -1,6 +1,6 @@
 <h1 data-start="0" data-end="32">Absolute Sensor Flutter Plugin</h1>
 
-![pub.dev](https://img.shields.io/badge/pub.dev-0.0.1-green)
+![pub.dev](https://img.shields.io/badge/pub.dev-1.0.0-green)
 
 <p data-start="34" data-end="176"><strong data-start="34" data-end="53">Absolute Sensor</strong> provides unified access to device motion and orientation sensors on Android, iOS, and Web with strongly-typed data models.</p>
 
@@ -75,7 +75,7 @@ class OrientationData {
 ```yaml
 
 dependencies:
-  absolute_sensor: ^0.0.1
+  absolute_sensor: ^1.0.0
 
 ```
 
