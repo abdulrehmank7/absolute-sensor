@@ -1,5 +1,13 @@
 <h1 data-start="0" data-end="32">Absolute Sensor Flutter Plugin</h1>
+
+![pub.dev](https://img.shields.io/badge/pub.dev-0.0.1-green)
+
 <p data-start="34" data-end="176"><strong data-start="34" data-end="53">Absolute Sensor</strong> provides unified access to device motion and orientation sensors on Android, iOS, and Web with strongly-typed data models.</p>
+
+<div align="left">
+<img src="https://raw.githubusercontent.com/abdulrehmank7/absolute-sensor/master/absolute_sensor/ScreenRecording_05-25-202520-44-50_1-ezgif.com-video-to-gif-converter.gif" width="30%" >  
+</div>
+🚀 App using Gyroscope to power the card animation 🚀
 
 <h2 data-start="384" data-end="395">Features</h2>
 <ul data-start="397" data-end="1356">
