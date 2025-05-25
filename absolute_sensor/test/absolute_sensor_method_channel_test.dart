@@ -10,7 +10,7 @@ void main() {
   const EventChannel orientChannel = EventChannel('absolute_sensor/orientation');
 
   final MethodChannelAbsoluteSensor platform = MethodChannelAbsoluteSensor();
-  final StandardMethodCodec codec = StandardMethodCodec();
+  const StandardMethodCodec codec = StandardMethodCodec();
 
   tearDown(() {
     TestDefaultBinaryMessengerBinding.instance.defaultBinaryMessenger.setMockMethodCallHandler(rpcChannel, null);
