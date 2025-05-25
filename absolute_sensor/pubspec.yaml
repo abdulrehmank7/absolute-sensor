@@ -1,7 +1,16 @@
 name: absolute_sensor
 description: "Get absolute sensor values from device for different sensors."
-version: 1.0.0
+version: 1.0.1
 repository: https://github.com/abdulrehmank7/absolute-sensor/tree/master/absolute_sensor
+homepage: https://github.com/abdulrehmank7/absolute-sensor/tree/master/absolute_sensor
+issue_tracker: https://github.com/abdulrehmank7/absolute-sensor/issues
+
+topics:
+  - sensor
+  - absolute sensor values
+  - gyroscope sensor
+  - android sensor
+
 
 environment:
   sdk: ^3.5.4
